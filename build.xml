@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="systemprops" basedir="." default="printSystemProps">
+    <target name="printSystemProps">
+        <echo>${os.name}</echo>
+        <echo>${java.vendor}</echo>
+    </target>
+</project>
